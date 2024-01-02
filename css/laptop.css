@@ -3,4 +3,17 @@
     .section1_text {
         width: calc(840 / 1440 * 100%);
     }
+    /* ↓↓ section 2 ↓↓  */
+    .section2{
+        width: 840px;
+    }
+    .article_3{
+        display: none;
+    }
+    .article_image{
+        width: 408px;
+    }
+    .article_text{
+        width: 378px;
+    }
 }
