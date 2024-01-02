@@ -59,6 +59,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
+    margin-bottom: 130px;
 }
 
 h2 {
@@ -89,7 +90,6 @@ h2 {
     width: 1180px;
     margin: auto;
     flex-direction: column;
-    justify-content: center;
 }
 
 h3 {
@@ -99,38 +99,71 @@ h3 {
     font-weight: 500;
     line-height: 45px;
     margin-bottom: 35px;
-    
-    
+
+
 }
 
-h4{
+h4 {
     color: #000;
     font-family: 'Kanit', sans-serif;
-font-size: 24px;
-font-weight: 500;
-line-height: 32px;
-margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 8px;
 }
-.article_text{
+
+.article_text {
     color: #000;
     font-family: 'Kanit', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
+
 .image_div {
     display: flex;
     justify-content: center;
     gap: 22px;
-    object-fit: cover;
-
 }
+
+.article_image {
+    width: 100%;
+    height: 189px;
+    object-fit: cover;
+}
+
 /* img:hover{
-    scale: 1.1;
+    scale: 1.11;
     transition: .5s;
 } */
-.article_text_div{
-    
-padding: 16px 15px ;
+.article_text_div {
+    padding: 16px 15px;
+}
 
+/* ↓↓ section 3 ↓↓ */
+.section_3 {
+    display: flex;
+    margin: auto;
+    width: 1180px;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+.section3_card {
+    width: calc(780 / 1180 * 100%);
+}
+/* .section3_card:hover{
+    scale: 1.05;
+    transition: 0.5s;
+} */
+.section3_cards {
+    /* background-color: #FA793C; */
+    display: flex;
+    gap: 20px;
+}
+
+.section_3image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

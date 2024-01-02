@@ -16,4 +16,22 @@
     .article_text{
         width: 378px;
     }
+    /* ↓↓ section 3 ↓↓ */
+    .section_3{
+        width: 840px;
+       
+    }
+    .section3_cards{
+        flex-direction: column;
+    }
+    .section_3image{
+       flex-direction: row;
+       gap: 20px;
+    }
+    .section3_card{
+       width: 100%; 
+    }
+    .section_3image img{
+        width: 100%;
+    }
 }
