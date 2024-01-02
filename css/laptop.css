@@ -1,0 +1,6 @@
+@media (max-width: 1180px) {
+
+    .section1_text {
+        width: calc(840 / 1440 * 100%);
+    }
+}

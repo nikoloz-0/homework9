@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Regular.eot');
+    src: url('../fonts/Kanit-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kanit-Regular.woff2') format('woff2'),
+        url('../fonts/Kanit-Regular.woff') format('woff'),
+        url('../fonts/Kanit-Regular.ttf') format('truetype'),
+        url('../fonts/Kanit-Regular.svg#Kanit-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pridi';
+    src: url('../fonts/Pridi-Regular.eot');
+    src: url('../fonts/Pridi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Pridi-Regular.woff2') format('woff2'),
+        url('../fonts/Pridi-Regular.woff') format('woff'),
+        url('../fonts/Pridi-Regular.ttf') format('truetype'),
+        url('../fonts/Pridi-Regular.svg#Pridi-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ABeeZee';
+    src: url('../fonts/ABeeZee-Regular.eot');
+    src: url('../fonts/ABeeZee-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ABeeZee-Regular.woff2') format('woff2'),
+        url('../fonts/ABeeZee-Regular.woff') format('woff'),
+        url('../fonts/ABeeZee-Regular.ttf') format('truetype'),
+        url('../fonts/ABeeZee-Regular.svg#ABeeZee-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
