@@ -8,10 +8,25 @@
 header {
     display: flex;
     align-items: center;
-    padding-inline: 130px;
+    padding: 6px 130px;
     justify-content: space-between;
 
 
+}
+
+.burger {
+    display: none;
+}
+
+li:hover {
+    transition: .5s;
+    scale: 1.2;
+
+}
+
+a:hover {
+    transition: .5s;
+    color: #FA793C;
 }
 
 .header_div {
@@ -66,7 +81,6 @@ h2 {
     color: #FFF;
     font-family: 'Kanit', sans-serif;
     font-size: 50px;
-    font-style: normal;
     font-weight: 400;
     line-height: 75px;
     margin-bottom: 20px;
@@ -78,7 +92,6 @@ h2 {
     text-align: center;
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28px;
 }
@@ -87,9 +100,13 @@ h2 {
 .section2 {
     /* background-color: aqua; */
     display: flex;
-    width: 1180px;
+    width: calc(1180 / 1440 * 100%);
     margin: auto;
     flex-direction: column;
+}
+
+.section2_article {
+    width: calc(380 / 1180 * 100%);
 }
 
 h3 {
@@ -132,10 +149,11 @@ h4 {
     object-fit: cover;
 }
 
-/* img:hover{
+img:hover {
     scale: 1.11;
     transition: .5s;
-} */
+}
+
 .article_text_div {
     padding: 16px 15px;
 }
@@ -144,18 +162,28 @@ h4 {
 .section_3 {
     display: flex;
     margin: auto;
-    width: 1180px;
+    width: calc(1180 / 1440 * 100%);
     flex-direction: column;
     margin-top: 130px;
 }
 
 .section3_card {
     width: calc(780 / 1180 * 100%);
+    height: 400px;
+    object-fit: cover;
 }
-/* .section3_card:hover{
+
+.section3_img {
+    width: 100%;
+    object-fit: cover;
+    height: 190px;
+}
+
+.section3_card:hover {
     scale: 1.05;
     transition: 0.5s;
-} */
+}
+
 .section3_cards {
     /* background-color: #FA793C; */
     display: flex;
@@ -166,4 +194,24 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
+
+}
+
+/* ↓↓ footer ↓↓ */
+footer {
+    background-color: #000;
+    display: flex;
+    padding: 31px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 130px;
+}
+
+.footer_text {
+    color: #FFF;
+    font-family: 'Pridi', serif;
+    font-size: 18px;
+    font-weight: 400;
 }
