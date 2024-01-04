@@ -4,14 +4,12 @@
 
 }
 
-/* ↓↓ header ↓↓ */
+/* ↓↓ header ↓↓---------------------------------------------- */
 header {
     display: flex;
     align-items: center;
     padding: 6px 130px;
     justify-content: space-between;
-
-
 }
 
 .burger {
@@ -62,7 +60,7 @@ a:hover {
     line-height: 24px;
 }
 
-/* ↓↓ section 1 ↓↓  */
+/* ↓↓ section 1 ↓↓----------------------------------------------  */
 .section1 {
     height: 550px;
     margin: auto;
@@ -96,7 +94,7 @@ h2 {
     line-height: 28px;
 }
 
-/* ↓↓↓ section 2 ↓↓↓ */
+/* ↓↓↓ section 2 ↓↓↓---------------------------------------------- */
 .section2 {
     /* background-color: aqua; */
     display: flex;
@@ -158,7 +156,7 @@ img:hover {
     padding: 16px 15px;
 }
 
-/* ↓↓ section 3 ↓↓ */
+/* ↓↓ section 3 ↓↓---------------------------------------------- */
 .section_3 {
     display: flex;
     margin: auto;
@@ -198,7 +196,7 @@ img:hover {
 
 }
 
-/* ↓↓ footer ↓↓ */
+/* ↓↓ footer ↓↓---------------------------------------------- */
 footer {
     background-color: #000;
     display: flex;

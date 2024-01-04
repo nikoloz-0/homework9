@@ -1,4 +1,5 @@
 @media (max-width: 660px) {
+    /* ↓↓ header ↓↓ --------__--------------------__----------------- */
     header {
 
         margin: auto;
@@ -18,13 +19,13 @@
 
 @media (max-width: 480px) {
 
-    /* header------------------------------------------ */
+    /* header--------__--------------------__----------------- */
     header {
         padding: 0;
         justify-content: space-between;
     }
 
-    /* section 1 -------------------------------------- */
+    /* section 1 --------__--------------------__----------------- */
     .section1 {
         margin-bottom: 48px;
     }
@@ -40,7 +41,7 @@
         line-height: 22px;
     }
 
-    /* section 2 ---------------------------------------*/
+    /* section 2 ---------__--------------------__---------------------*/
     .section2 {
         width: 100%;
         justify-content: center;
@@ -59,7 +60,7 @@
     .section2_article {
         width: 100%;   
     }
-    /* section 3 ---------------------------------- */
+    /* section 3 -----------__--------------------__----------------- */
     .section_3 {
         width: calc(375 / 480 * 100%);
         text-align: center;
@@ -78,6 +79,7 @@
 
     .section3_card {
         width: 100%;
+        height: 320px;
     }
 
     .section_3image img {
