@@ -53,19 +53,12 @@
 
     .image_div {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: calc(347 / 480 * 100%);
     }
 
     .section2_article {
-        width: 100%;
+        width: 100%;   
     }
-
-    .article_text_div {
-        width: calc(315 / 347 * 100%);
-    }
-
     /* section 3 ---------------------------------- */
     .section_3 {
         width: calc(375 / 480 * 100%);

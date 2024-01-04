@@ -42,7 +42,6 @@
     .section_3image {
         flex-direction: row;
         justify-content: space-between;
-        max-width: 700px;
     }
 
     .section3_card {
