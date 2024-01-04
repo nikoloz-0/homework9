@@ -26,8 +26,8 @@ header {
 }
 
 li:hover {
-    transition: .5s;
-    scale: 1.2;
+    transition: .7s;
+    scale: 1.3;
 
 }
 
@@ -225,9 +225,9 @@ footer {
 }
 
 .footer_image:hover {
-    transition: 1.2s;
-    scale: 1.5;
-    rotate: 360deg;
+    transition: .5s;
+    scale: 1.3;
+    
 }
 
 /* yvelaze sainteresto davaleba iyo ))*/
