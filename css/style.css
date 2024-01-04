@@ -10,6 +10,15 @@ header {
     align-items: center;
     padding: 6px 130px;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    background-color: #FFF;
+    z-index: 1;
+    /* header ki gavfiqse zemot mara ragac ushnoa tetri tetrze memgoni sachiro arc iyo
+    instruqciashi argewera magram iyos mainc  */
+    
 }
 
 .burger {
@@ -73,6 +82,7 @@ a:hover {
     background-size: 100% 100%;
     background-position: center;
     margin-bottom: 130px;
+    
 }
 
 h2 {
@@ -213,10 +223,11 @@ footer {
     font-size: 18px;
     font-weight: 400;
 }
-.footer_image:hover{
+
+.footer_image:hover {
     transition: 1.2s;
     scale: 1.5;
     rotate: 360deg;
-    
 }
+
 /* yvelaze sainteresto davaleba iyo ))*/
