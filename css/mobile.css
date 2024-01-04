@@ -18,7 +18,6 @@
 }
 
 @media (max-width: 480px) {
-
     /* header--------__--------------------__----------------- */
     header {
         
@@ -85,4 +84,16 @@
     .section_3image img {
         width: 100%;
     }
+        /* Hover effects ↓↓↓---------------------------------------------- */
+.section3_img:hover{
+    scale: 1;
+}
+.section3_card:hover {
+    scale: 1;
+    
+}
+.article_image:hover {
+    scale: 1;
+    
+}
 }
