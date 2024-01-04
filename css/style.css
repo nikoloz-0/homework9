@@ -186,10 +186,12 @@ h4 {
     object-fit: cover;
     height: 190px;
 }
-.section3_img:hover{
+
+.section3_img:hover {
     scale: 1.1;
     transition: 0.5s;
 }
+
 .section3_card:hover {
     scale: 1.04;
     transition: 0.5s;
