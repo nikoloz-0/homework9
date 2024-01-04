@@ -213,3 +213,9 @@ footer {
     font-size: 18px;
     font-weight: 400;
 }
+.footer_image:hover{
+    transition: 1.2s;
+    scale: 1.5;
+    rotate: 360deg;
+    
+}
