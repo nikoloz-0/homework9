@@ -4,7 +4,7 @@
 
         margin: auto;
         justify-content: space-between;
-        padding: 0 14px;
+        padding: 6px 14px;
 
     }
 
@@ -20,7 +20,7 @@
 @media (max-width: 480px) {
     /* header--------__--------------------__----------------- */
     header {
-        
+        padding: 6px 14px;
         justify-content: space-between;
     }
 
@@ -83,6 +83,9 @@
 
     .section_3image img {
         width: 100%;
+    }
+    footer{
+        padding: 31px 100px;
     }
         /* Hover effects ↓↓↓---------------------------------------------- */
 .section3_img:hover{
