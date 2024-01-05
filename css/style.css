@@ -115,6 +115,7 @@ h2 {
 
 .section2_article {
     width: calc(380 / 1180 * 100%);
+    border: 1px solid black;
 }
 
 h3 {
